@@ -1,0 +1,6 @@
+[phases.build]
+cmds = ["echo building!", "pwd", "ls -la"]
+
+[phases.setup]
+nixPkgs = ["..."]
+aptPkgs = ["..."]
